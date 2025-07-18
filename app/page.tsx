@@ -79,7 +79,7 @@ export default function FeminaBeautyParlour() {
       id: 5,
       title: 'Threading & Eyebrow',
       description: 'Precise threading and eyebrow shaping services for perfectly defined and groomed eyebrows.',
-      image: 'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://imgs.search.brave.com/87PZQpu3RLuuZ0QewySdNuptGfEJHX8qR3tgObjnTB8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlc2hhLmNv/bS9sZWFkLWltYWdl/cy9wbGFjZWhvbGRl/cnMvZXllYnJvd3Mt/YW5kLWxhc2hlcy0x/ODIuanBnP2NsYXNz/PXdpZHRoLXNtYWxs?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       duration: '30 mins',
       benefits: ['Precise shaping', 'Pain-free technique', 'Natural arch enhancement', 'Aftercare guidance']
     },
@@ -91,14 +91,14 @@ export default function FeminaBeautyParlour() {
       duration: '75 mins',
       benefits: ['Deep conditioning', 'Scalp massage', 'Hair strengthening', 'Damage repair']
     },
-    {
-      id: 7,
-      title: 'Waxing Services',
-      description: 'Gentle and effective waxing services using high-quality wax for smooth, long-lasting results.',
-      image: 'https://images.pexels.com/photos/3065128/pexels-photo-3065128.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      duration: '45 mins',
-      benefits: ['Gentle technique', 'Premium wax products', 'Minimal discomfort', 'Smooth finish']
-    },
+    // {
+    //   id: 7,
+    //   title: 'Waxing Services',
+    //   description: 'Gentle and effective waxing services using high-quality wax for smooth, long-lasting results.',
+    //   image: 'https://images.pexels.com/photos/3065128/pexels-photo-3065128.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    //   duration: '45 mins',
+    //   benefits: ['Gentle technique', 'Premium wax products', 'Minimal discomfort', 'Smooth finish']
+    // },
     {
       id: 8,
       title: 'Kids Hair & Skincare',
@@ -167,16 +167,7 @@ export default function FeminaBeautyParlour() {
   const galleryImages = [
     'https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
     'https://images.pexels.com/photos/3764013/pexels-photo-3764013.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1153369/pexels-photo-1153369.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1721558/pexels-photo-1721558.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/3065128/pexels-photo-3065128.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-    'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+
   ];
 
   useEffect(() => {
@@ -678,7 +669,7 @@ export default function FeminaBeautyParlour() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">Website</h3>
-                  <p className="text-gray-600">feminabeautyparlour.in</p>
+                  <p className="text-gray-600">feminaparlour.vercel.app</p>
                 </div>
                 <Star className="w-5 h-5 text-pink-400 animate-pulse ml-auto" />
               </div>
@@ -689,7 +680,7 @@ export default function FeminaBeautyParlour() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">Location</h3>
-                  <p className="text-gray-600">Address will be updated soon</p>
+                  <p className="text-gray-600">Ibrahim street  </p>
                 </div>
                 <Star className="w-5 h-5 text-purple-400 animate-pulse ml-auto" />
               </div>
